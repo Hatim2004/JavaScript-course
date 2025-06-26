@@ -7,6 +7,8 @@ console.log(Number.isNaN("hi"-2))
  
 console.log(Math.pow(2,2));
 console.log(Math.PI);
+
+
 function calculate(){
     let input = Number(document.getElementById("input").value);
     let output = document.getElementById("output");
