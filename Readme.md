@@ -1,5 +1,5 @@
-what I've leard:
+<pre>what I've leard:
 -Number functions like isIntger, isNaN, isFloat.
 -Math functions sqrt, pow, round, abs, ceil, floor.
 -Math values E, PI. 
--Min and Max functions.
+-Min and Max functions.</pre>
