@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@200..1000&family=Manrope:wght@200..800&family=Playpen+Sans+Arabic:wght@100..800&display=swap');
+
+body{
+    direction: rtl;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Cairo Play", sans-serif;
+}
+
+.main{
+    text-align: center;
+    width: 25vh;
+    height: 25vh;
+    margin-top: 20vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#input{
+    width: 8em;
+    margin-top: 1.2em;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: x-large;
+}
+
+#btn{
+    display: block;
+    width: 7em;
+    height: 2.2em;
+    margin-top: 1.2em;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: medium;
+    font-weight: bolder;
+    background-color: rgb(255, 209, 3);
+    border: none;
+    border-radius: 10px;
+}
+
+@media(max-width: 375px){
+    .main{
+        width: 50vh;
+        height: 50vh;
+    }
+}
+
+
+@media(max-width: 412px){
+    #input{
+        margin-top: 1em;
+    }
+}
